@@ -1,0 +1,162 @@
+.text {
+color: black;
+}
+body {
+    text-align: justify;
+    background-color: aqua;
+}
+.logo img{
+    width: 150px;
+    height: 90px;
+    padding-left: 2%;
+    border-radius: 12%;
+    border-top: 12%;
+}
+.site-header{
+    background: linear-gradient(#000000,#fff) ;
+}
+.div{
+    color: rgb(0, 247, 12);
+    padding-left: 15%,auto;
+
+}
+.wellness-articles{
+    background-color: rgb(255, 255, 255);
+    margin: 20px;
+    padding: 20px;
+    border-radius: 20px;
+    font-style: italic;
+    
+}
+.main-nav{
+    margin-left: 0.8rem;
+    text-decoration: dotted;
+    columns: rgb(25, 0, 249);
+    align-content: right;
+}
+.footer-nav{
+    margin-left: 900px;
+}
+.gallery{
+    background-color: rgb(255, 255, 255);
+    margin: 20px;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+h1{
+    color: rgb(0, 0, 0);
+    text-align: center;
+    padding-top: 20px;
+}
+a{
+    color: rgb(55, 0, 255);
+
+}
+a:hover{
+    color: red;
+}
+a:not([href]):not([class]), a:not([href]):not([class]):hover {
+  color: inherit;
+  text-decoration: none;
+}
+img{
+    display: inline;
+    filter: blur(0px);
+}
+.feat{
+    background-image: url(images/people.jpg);
+    color: white;
+}
+.form-container1 {
+background-image: url(images/3.jpg);
+margin: 20px;
+padding: 20px;
+border: 30px rgb(255, 255, 255);
+border-radius: 20px;   
+width: 600px; 
+margin-left: 300px;
+}
+.row{
+    margin: 10px;
+    padding: 10px;
+    display: flex;
+    align-items: stretch;
+}
+.form-group {
+    margin-bottom: 20px;
+}
+.form-group label {
+    display: block;
+    margin-bottom: 10px;
+}
+.form-group input[type="submit"] {
+    background-color: rgb(255, 0, 0);
+    color: #fff;
+    cursor: pointer;
+    border-radius: 8px;
+    padding: 20px auto;
+}
+.site-footer{
+background: linear-gradient(yellow,#000000);
+
+}
+.Navbar{
+    background-color: red;
+    color: #fff;
+}
+.video{
+    margin-left: 30%;
+}
+h3{
+    display: inline;
+}
+h4{
+    background-color: #fff;
+    display: inline;
+}
+h1{
+    color: #ffffff;
+    align-items: center;
+}
+p{
+    color: #000000;
+    align-items: center;
+    margin-left: 20px;
+    margin-right: 70px;
+}
+.gallery {
+display: flex;
+flex-wrap: wrap;
+gap: 10px;
+}
+.gallery img {
+width: 150px;
+height: 150px;
+object-fit: cover;
+cursor: pointer;
+}
+ .modal {
+ position: fixed;
+ top: 0;
+left: 0;
+width: 100%;
+height: 100%;
+background-color: aqua;
+display: none;
+}
+.modal img {
+position: absolute;
+top: 50%;
+left: 50%;
+transform: translate(-50%, -50%);
+max-width: 90%;
+max-height: 90%;
+}
+        
+@media(max-width:800px) {
+    .background-color{lightblue};
+	.hero-inner{flex-direction:column}
+	.header-inner{flex-direction:column; align-items:flex-start}
+	.footer-inner{flex-direction:column; gap:0.6rem}
+}
